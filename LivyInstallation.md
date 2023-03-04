@@ -13,7 +13,7 @@ apk add openjdk8
 ```
 Step 2: Donwload Spark.
 ```shell
-curl -L --retry 3 -o "spark-3.0.0-bin-hadoop2.7.tgz" "https://archive.apache.org/dist/spark/spark-3.0.0/spark-3.0.0-bin-hadoop2.7.tgz"
+curl -L --retry 3 -o "spark-2.2.3-bin-hadoop2.7.tgz" "https://archive.apache.org/dist/spark/spark-2.2.3/spark-2.2.3-bin-hadoop2.7.tgz"
 ```
 Step 3: Downnload Apache Livy.
 ```shell
@@ -29,7 +29,7 @@ unzip apache-livy-0.7.1-incubating-bin.zip
 ```
 Step 5: Configure Spark Home environment variable.
 ```shell
-export SPARK_HOME=/root/spark-3.0.0-bin-hadoop2.7
+export SPARK_HOME=/root/spark-2.2.3-bin-hadoop2.7
 ```
 Step 6: Create Livy logs folder.
 ```shell
