@@ -21,7 +21,7 @@ curl -L --retry 3 -o "apache-livy-0.7.1-incubating-bin.zip" "https://archive.apa
 ```
 Step 4: Extract Spark zip file.
 ```shell
-tar zxvf spark-3.0.0-bin-hadoop2.7.tgz
+tar zxvf spark-2.2.3-bin-hadoop2.7.tg
 ```
 Step 5: Extract Livy zip file.
 ```shell
