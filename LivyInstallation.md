@@ -1,8 +1,4 @@
-# Livy Installation
-
-Use https://labs.play-with-docker.com (Play with Docker)
-
-<hr>
+# Appache Livy Installation
 
 ### Steps to install Apache Liy
 
@@ -11,11 +7,11 @@ Step 1: Install Java 8.
 ```shell
 apk add openjdk8
 ```
-Step 2: Donwload Spark.
+Step 2: Download Spark.
 ```shell
 curl -L --retry 3 -o "spark-2.2.3-bin-hadoop2.7.tgz" "https://archive.apache.org/dist/spark/spark-2.2.3/spark-2.2.3-bin-hadoop2.7.tgz"
 ```
-Step 3: Downnload Apache Livy.
+Step 3: Download Apache Livy.
 ```shell
 curl -L --retry 3 -o "apache-livy-0.7.1-incubating-bin.zip" "https://archive.apache.org/dist/incubator/livy/0.7.1-incubating/apache-livy-0.7.1-incubating-bin.zip"
 ```
@@ -49,9 +45,12 @@ curl --no-progress-meter http://127.0.0.1:8998/sessions| jq
 ```
 <hr>
 
-### Livy UI URL is
+### URLs
 
-http://127.0.0.1:8998/ui.
+Livy UI: http://127.0.0.1:8998/ui
+
+Play with Docker: https://labs.play-with-docker.com
+
 <hr>
 
 ### Curl commands to use Livy REST APIs
