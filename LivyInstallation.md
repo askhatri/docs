@@ -46,7 +46,7 @@ curl --no-progress-meter http://127.0.0.1:8998/sessions| jq
 ```
 Step 11: Stopping livy server.
 ```shell
-ps aux | grep livy-server
+ps aux | grep java
 kill -9 <process-id>
 ```
 <hr>
