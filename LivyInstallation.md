@@ -59,13 +59,15 @@ Play with Docker: https://labs.play-with-docker.com
 
 <hr>
 
-### Software requried to install on Windows
+### Software required to install on Windows
 1. Virtual box
 2. Ubuntu on Virtualbox
 3. Docker Desktop
 
 <b>Following tools are required on Ubuntu:</b>
 curl, jq, tar, unzip, java 8 (openjdk8) etc.
+
+<hr>
 
 ### Curl commands to use Livy REST APIs
 
