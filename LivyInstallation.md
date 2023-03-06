@@ -1,4 +1,4 @@
-# Appche Livy Installation
+# Apache Livy Installation
 
 ### Steps to install Apache Liy
 
